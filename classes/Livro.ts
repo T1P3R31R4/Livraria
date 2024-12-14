@@ -59,6 +59,7 @@ export class Livro {
   get alugado(): boolean {
     return this._alugado
   }
+  
   set alugado(alugado: boolean) {
     this._alugado = alugado
     alterarStatusAluguelLivroCSV(this)
